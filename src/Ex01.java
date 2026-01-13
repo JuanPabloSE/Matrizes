@@ -9,8 +9,8 @@ public class Ex01 {
 
         int [] [] matriz = new int [M] [N];
 
-        for (int i = 0; i < matriz.length; i++) {
-            for (int j = 0; j < matriz[i].length; j++) {
+        for (int i = 0; i < matriz.length; i++) { // QUANTIDADE DE LINHAS
+            for (int j = 0; j < matriz[i].length; j++) { // QUANTIDADE DE COLUNAS DA LINHA I.
                 matriz [i][j] = sc.nextInt();
             }
         }
