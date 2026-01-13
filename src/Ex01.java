@@ -15,9 +15,9 @@ public class Ex01 {
             }
         }
 
-        for (int i = 0; i < M; i++) {
-            for (int j = 0; j < N; j++) {
-                System.out.print(matriz[i][j] + " ");
+        for (int [] ler : matriz) {
+            for (int valor : ler) {
+                System.out.print(valor + " ");
             }
             System.out.println();
         }
