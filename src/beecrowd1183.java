@@ -7,7 +7,6 @@ public class beecrowd1183 {
         Scanner sc = new Scanner(System.in);
 
         String entrada = sc.next();
-
         double [] [] matriz = new double [12][12];
 
         for (int i = 0; i < matriz.length; i++) {
