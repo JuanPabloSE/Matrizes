@@ -18,8 +18,8 @@ public class beecrowd1184 {
         double calculo = 0.0;
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz[i].length; j++) {
-                if (j < i) {
-                    calculo += matriz[i][j];
+                if (j < i) {                    // ABAIXO DA DIAGONAL PRINCIPAL
+                    calculo += matriz[i][j];    // SE A COLUNA (J) FOR MENOR QUE A LINHA (I), CALCULO RECEBE VALOR E SOMA PRÓXIMOS.
                 }
             }
         }
