@@ -22,6 +22,7 @@ public class ExProposto04 {
                 }
             }
         }
+
         System.out.println(soma);
 
         sc.close();
